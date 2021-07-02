@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class FindTheLargestNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int counter = 10;
+        int counter = 5;
         int number;
-        int largest = 0;
+        int largest;
+        System.out.println("Enter number");
+        largest = input.nextInt();
         for (int i = 1; i <= counter; i++) {
             System.out.println("Enter number");
             number = input.nextInt();
